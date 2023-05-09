@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  profile:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:Knightch/JavaMicroserviceExample3.git
